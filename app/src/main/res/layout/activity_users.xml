@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_users"
+    android:layout_width="match_parent"
+    android:background="#E9E9E9"
+    android:layout_height="match_parent"
+    tools:context="com.logischtech.iedplan.Users">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/actionbar"
+        android:background="#fff"
+        android:layout_weight="1"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/logo"
+            android:src="@drawable/logoaction"
+            android:textSize="20dp"
+            android:layout_marginTop="6dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/adduser_button"
+            android:id="@+id/adduser"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/bar"
+            android:textColor="#0973BB"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:id="@+id/icon_make"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#0973BB"
+        android:id="@+id/infront"
+
+        android:layout_marginTop="60dp"
+        android:layout_height="60dp">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Search"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:background="#fff"
+            android:layout_height="30dp" />
+        <EditText
+            android:layout_width="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="#0973BB"
+            android:id="@+id/icon_search"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="@string/icon_search"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="All"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/downarrow"
+
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/content_layout"
+    android:layout_marginTop="130dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="500dp">
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector" />
+</RelativeLayout>
+
+</RelativeLayout>

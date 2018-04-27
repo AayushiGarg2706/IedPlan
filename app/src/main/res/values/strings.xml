@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">IedPlan</string>
+    <string name="icon_user">&#xf2d8; Username</string>
+    <string name="icon_password"> &#xf392; Password</string>
+    <string name="icon_name1"> &#xf2d8; Name</string>
+    <string name="icon_pname">&#xf2d8;</string>
+    <string name="icon_pemail">&#xf2eb;</string>
+    <string name="icon_email">&#xf2eb; Email</string>
+    <string name="icon_select">&#xf296;-Select Organisation Type-</string>
+    <string name="icon_make">&#xf130;</string>
+    <string name="select1">Small Organisation</string>
+    <string name="select2">more than 50 person</string>
+    <string name="select3">Large Organisation</string>
+    <string name="apiIP">http://uat.api.iedplan.com</string>
+    <string name="icon_org">&#xf2d9; Organisation Name</string>
+    <string-array name="organization_type">
+        <item>--Select Organization Type--
+        </item>
+        <item>Individual</item>
+        <item>Group</item>
+        <item>School</item>
+        <item>College</item>
+        <item>Corporate</item>
+    </string-array>
+    <string name="prompt">-Select Organization Type-</string>
+    <string name="icon_users">&#xf2d8; User</string>
+    <string name="icon_search">&#xf4a5;</string>
+    <string-array name="role">
+        <item>Organisation Admin</item>
+        <item>Faculty</item>
+        <item>Student</item>
+        <item>Parent</item>
+    </string-array>
+
+
+</resources>

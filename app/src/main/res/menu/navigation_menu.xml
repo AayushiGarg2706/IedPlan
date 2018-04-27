@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/arrow"        android:title="Home"/>
+
+    </group>
+    <group android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item android:id="@+id/about"
+            android:icon="@drawable/arrow"
+            android:title="About"/>
+
+
+    </group>
+    <group android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item android:id="@+id/course"
+            android:icon="@drawable/arrow"
+            android:title="Courses"/>
+
+
+    </group>
+    <group android:id="@+id/group4"
+        android:checkableBehavior="single">
+        <item android:id="@+id/event"
+            android:icon="@drawable/arrow"
+            android:title="Event"/>
+
+    </group>
+    <group android:id="@+id/group6"
+        android:checkableBehavior="single">
+        <item android:id="@+id/gallery"
+            android:icon="@drawable/arrow"
+            android:title="Gallery"/>
+
+    </group>
+    <group android:id="@+id/group7"
+        android:checkableBehavior="single">
+        <item android:id="@+id/contact"
+            android:icon="@drawable/arrow"
+            android:title="Contact"/>
+
+
+
+    </group>
+    <group android:id="@+id/group8"
+        android:checkableBehavior="single">
+        <item android:id="@+id/signout"
+            android:icon="@drawable/arrow"
+
+            android:title="Sign Out"/>
+    </group>
+
+    <group android:id="@+id/group10"
+        android:checkableBehavior="single">
+        <item android:id="@+id/profile"
+            android:icon="@drawable/arrow"
+            android:title="Profile"/>
+    </group>
+
+
+    <group android:id="@+id/group9"
+        android:checkableBehavior="single">
+        <item android:id="@+id/user"
+            android:icon="@drawable/arrow"
+
+            android:title="Users">
+
+        </item>
+
+    </group>
+
+
+
+
+
+
+
+
+
+</menu>
